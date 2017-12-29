@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text=" ID : "
+            android:textSize="20dp"
+            android:id="@+id/textView_ID"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView_ID"
+            android:text=" Name : "
+            android:id="@+id/textView_Name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView_Name"
+            android:text=" Phone Number : "
+
+            android:id="@+id/textView_PhoneNumber"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp"
+            android:layout_below="@id/textView_PhoneNumber"
+            android:text=" Subject : "
+            android:id="@+id/textView_Subject"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

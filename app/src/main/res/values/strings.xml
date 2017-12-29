@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Softcell</string>
+    <string name="URL"> http://androidblog.esy.es/jsonData.php</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="newUser">No Account ? Create One</string>
+</resources>
